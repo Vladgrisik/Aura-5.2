@@ -1,0 +1,8 @@
+[0115/155751.200:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0115/155751.212:ERROR:cache_util.cc(144)] Unable to move cache folder C:/Users/admin/UnrealProject/Aura/Saved/webcache_4430\Cache to C:/Users/admin/UnrealProject/Aura/Saved/webcache_4430\old_Cache_000
+[0115/155751.212:ERROR:disk_cache.cc(184)] Unable to create cache
+[0115/155800.582:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+[0115/155938.791:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0115/155938.791:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0115/162752.709:WARNING:gpu_process_host.cc(1296)] The GPU process has crashed 1 time(s)
+[0115/162803.210:WARNING:gpu_process_host.cc(1016)] Reinitialized the GPU process after a crash. The reported initialization time was 228 ms
