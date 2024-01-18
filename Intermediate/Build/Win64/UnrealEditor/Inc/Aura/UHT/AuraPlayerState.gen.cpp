@@ -109,15 +109,15 @@ void EmptyLinkFunctionForGeneratedCodeAuraPlayerState() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAuraPlayerState);
 	AAuraPlayerState::~AAuraPlayerState() {}
-	struct Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Player_AuraPlayerState_h_Statics
+	struct Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_Player_AuraPlayerState_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Player_AuraPlayerState_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_Player_AuraPlayerState_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_AAuraPlayerState, AAuraPlayerState::StaticClass, TEXT("AAuraPlayerState"), &Z_Registration_Info_UClass_AAuraPlayerState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraPlayerState), 1610805307U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Player_AuraPlayerState_h_3903429376(TEXT("/Script/Aura"),
-		Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Player_AuraPlayerState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Player_AuraPlayerState_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_Player_AuraPlayerState_h_3903429376(TEXT("/Script/Aura"),
+		Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_Player_AuraPlayerState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_Player_AuraPlayerState_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

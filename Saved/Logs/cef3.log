@@ -1,1 +1,8 @@
-[0117/144126.975:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0117/195857.842:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0117/195857.842:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0117/195908.619:ERROR:database.cc(1707)] Cookie sqlite error 5, errno 33: database is locked, sql: DELETE FROM cookies WHERE is_persistent != 1
+[0117/195908.619:WARNING:sqlite_persistent_cookie_store.cc(1455)] Unable to delete session cookies.
+[0117/195909.213:ERROR:cache_util_win.cc(20)] Unable to move the cache: Access is denied. (0x5)
+[0117/195909.214:ERROR:cache_util.cc(144)] Unable to move cache folder C:/Users/admin/UnrealProject/Aura-5.2/Saved/webcache_4430\Cache to C:/Users/admin/UnrealProject/Aura-5.2/Saved/webcache_4430\old_Cache_000
+[0117/195909.231:ERROR:disk_cache.cc(184)] Unable to create cache
+[0117/195919.969:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)

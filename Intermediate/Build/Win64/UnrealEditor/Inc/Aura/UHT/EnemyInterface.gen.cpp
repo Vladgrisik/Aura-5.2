@@ -73,15 +73,15 @@ void EmptyLinkFunctionForGeneratedCodeEnemyInterface() {}
 	UEnemyInterface::UEnemyInterface(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UEnemyInterface);
 	UEnemyInterface::~UEnemyInterface() {}
-	struct Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Interaction_EnemyInterface_h_Statics
+	struct Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_Interaction_EnemyInterface_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Interaction_EnemyInterface_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_Interaction_EnemyInterface_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UEnemyInterface, UEnemyInterface::StaticClass, TEXT("UEnemyInterface"), &Z_Registration_Info_UClass_UEnemyInterface, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEnemyInterface), 3317076669U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Interaction_EnemyInterface_h_790301013(TEXT("/Script/Aura"),
-		Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Interaction_EnemyInterface_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Aura_Source_Aura_Public_Interaction_EnemyInterface_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_Interaction_EnemyInterface_h_790301013(TEXT("/Script/Aura"),
+		Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_Interaction_EnemyInterface_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_Interaction_EnemyInterface_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Aura",
-			"Path": "C:\\Users\\admin\\UnrealProject\\Aura\\Source\\Aura.Target.cs",
+			"Path": "C:\\Users\\admin\\UnrealProject\\Aura-5.2\\Source\\Aura.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "AuraEditor",
-			"Path": "C:\\Users\\admin\\UnrealProject\\Aura\\Source\\AuraEditor.Target.cs",
+			"Path": "C:\\Users\\admin\\UnrealProject\\Aura-5.2\\Source\\AuraEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

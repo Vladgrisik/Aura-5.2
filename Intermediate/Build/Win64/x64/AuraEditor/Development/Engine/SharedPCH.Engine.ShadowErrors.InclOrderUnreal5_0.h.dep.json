@@ -1,10 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\admin\\unrealproject\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.cpp",
+        "Source": "c:\\users\\admin\\unrealproject\\aura-5.2\\intermediate\\build\\win64\\x64\\auraeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\admin\\unrealproject\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h",
+            "c:\\users\\admin\\unrealproject\\aura-5.2\\intermediate\\build\\win64\\x64\\auraeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h",
             "d:\\ue_5.2\\engine\\source\\runtime\\engine\\public\\enginesharedpch.h",
             "d:\\ue_5.2\\engine\\source\\runtime\\core\\public\\containers\\containersfwd.h",
             "d:\\ue_5.2\\engine\\source\\runtime\\core\\public\\hal\\platform.h",

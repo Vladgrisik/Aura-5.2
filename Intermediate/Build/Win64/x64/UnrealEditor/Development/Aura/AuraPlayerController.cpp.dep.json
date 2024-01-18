@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\admin\\unrealproject\\aura\\source\\aura\\private\\player\\auraplayercontroller.cpp",
+        "Source": "c:\\users\\admin\\unrealproject\\aura-5.2\\source\\aura\\private\\player\\auraplayercontroller.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\admin\\unrealproject\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "PCH": "c:\\users\\admin\\unrealproject\\aura-5.2\\intermediate\\build\\win64\\x64\\auraeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
         "Includes": [
-            "c:\\users\\admin\\unrealproject\\aura\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aura\\definitions.aura.h",
-            "c:\\users\\admin\\unrealproject\\aura\\source\\aura\\public\\player\\auraplayercontroller.h",
+            "c:\\users\\admin\\unrealproject\\aura-5.2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aura\\definitions.aura.h",
+            "c:\\users\\admin\\unrealproject\\aura-5.2\\source\\aura\\public\\player\\auraplayercontroller.h",
             "d:\\ue_5.2\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputmappingcontext.h",
             "d:\\ue_5.2\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedactionkeymapping.h",
             "d:\\ue_5.2\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputaction.h",
@@ -21,7 +21,7 @@
             "d:\\ue_5.2\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputmappingquery.generated.h",
             "d:\\ue_5.2\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedactionkeymapping.generated.h",
             "d:\\ue_5.2\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputmappingcontext.generated.h",
-            "c:\\users\\admin\\unrealproject\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraplayercontroller.generated.h",
+            "c:\\users\\admin\\unrealproject\\aura-5.2\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraplayercontroller.generated.h",
             "d:\\ue_5.2\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputsubsystems.h",
             "d:\\ue_5.2\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputsubsysteminterface.h",
             "d:\\ue_5.2\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedplayerinput.h",
@@ -34,8 +34,8 @@
             "d:\\ue_5.2\\engine\\source\\runtime\\slate\\public\\framework\\application\\iinputprocessor.h",
             "d:\\ue_5.2\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputcomponent.h",
             "d:\\ue_5.2\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputcomponent.generated.h",
-            "c:\\users\\admin\\unrealproject\\aura\\source\\aura\\public\\interaction\\enemyinterface.h",
-            "c:\\users\\admin\\unrealproject\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\enemyinterface.generated.h"
+            "c:\\users\\admin\\unrealproject\\aura-5.2\\source\\aura\\public\\interaction\\enemyinterface.h",
+            "c:\\users\\admin\\unrealproject\\aura-5.2\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\enemyinterface.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

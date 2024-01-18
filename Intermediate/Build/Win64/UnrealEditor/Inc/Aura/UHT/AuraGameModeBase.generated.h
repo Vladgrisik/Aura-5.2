@@ -14,11 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AURA_AuraGameModeBase_generated_h
 
-#define FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_SPARSE_DATA
-#define FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_RPC_WRAPPERS
-#define FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_ACCESSORS
-#define FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_SPARSE_DATA
+#define FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_RPC_WRAPPERS
+#define FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_ACCESSORS
+#define FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAuraGameModeBase(); \
 	friend struct Z_Construct_UClass_AAuraGameModeBase_Statics; \
@@ -27,7 +27,7 @@ public: \
 	DECLARE_SERIALIZER(AAuraGameModeBase)
 
 
-#define FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_INCLASS \
+#define FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAAuraGameModeBase(); \
 	friend struct Z_Construct_UClass_AAuraGameModeBase_Statics; \
@@ -36,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(AAuraGameModeBase)
 
 
-#define FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAuraGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAuraGameModeBase) \
@@ -50,7 +50,7 @@ public: \
 	NO_API virtual ~AAuraGameModeBase();
 
 
-#define FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAuraGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -64,27 +64,27 @@ public: \
 	NO_API virtual ~AAuraGameModeBase();
 
 
-#define FID_Aura_Source_Aura_Public_AuraGameModeBase_h_12_PROLOG
-#define FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_12_PROLOG
+#define FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_SPARSE_DATA \
-	FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_RPC_WRAPPERS \
-	FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_ACCESSORS \
-	FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_INCLASS \
-	FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_SPARSE_DATA \
+	FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_RPC_WRAPPERS \
+	FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_ACCESSORS \
+	FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_INCLASS \
+	FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_GENERATED_BODY \
+#define FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_SPARSE_DATA \
-	FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_ACCESSORS \
-	FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Aura_Source_Aura_Public_AuraGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_SPARSE_DATA \
+	FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_ACCESSORS \
+	FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -92,7 +92,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AURA_API UClass* StaticClass<class AAuraGameModeBase>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Aura_Source_Aura_Public_AuraGameModeBase_h
+#define CURRENT_FILE_ID FID_Aura_5_2_Source_Aura_Public_AuraGameModeBase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
