@@ -1,9 +1,10 @@
-C:\Users\admin\UnrealProject\Aura-5.2\Source\Aura\Public\AuraCharacterBase.h
-C:\Users\admin\UnrealProject\Aura-5.2\Source\Aura\Public\Characters\AuraEnemy.h
-C:\Users\admin\UnrealProject\Aura-5.2\Source\Aura\Public\Player\AuraPlayerState.h
-C:\Users\admin\UnrealProject\Aura-5.2\Source\Aura\Public\Interaction\EnemyInterface.h
-C:\Users\admin\UnrealProject\Aura-5.2\Source\Aura\Public\Characters\AuraCharacter.h
-C:\Users\admin\UnrealProject\Aura-5.2\Source\Aura\Public\Player\AuraPlayerController.h
-C:\Users\admin\UnrealProject\Aura-5.2\Source\Aura\Public\AbilitySystem\AuraAbilitySystemComponent.h
-C:\Users\admin\UnrealProject\Aura-5.2\Source\Aura\Public\AbilitySystem\AuraAttributeSet.h
-C:\Users\admin\UnrealProject\Aura-5.2\Source\Aura\Public\AuraGameModeBase.h
+D:\Unreal Projects\Aura-5.2\Source\Aura\Public\AuraCharacterBase.h
+D:\Unreal Projects\Aura-5.2\Source\Aura\Public\AuraGameModeBase.h
+D:\Unreal Projects\Aura-5.2\Source\Aura\Public\AbilitySystem\AuraAbilitySystemComponent.h
+D:\Unreal Projects\Aura-5.2\Source\Aura\Public\Characters\AuraCharacter.h
+D:\Unreal Projects\Aura-5.2\Source\Aura\Public\Characters\AuraEnemy.h
+D:\Unreal Projects\Aura-5.2\Source\Aura\Public\Player\AuraPlayerState.h
+D:\Unreal Projects\Aura-5.2\Source\Aura\Public\Player\AuraPlayerController.h
+D:\Unreal Projects\Aura-5.2\Source\Aura\Public\Interaction\EnemyInterface.h
+D:\Unreal Projects\Aura-5.2\Source\Aura\Public\AbilitySystem\AuraAttributeSet.h
+D:\Unreal Projects\Aura-5.2\Source\Aura\Public\Actor\AuraEffectActor.h

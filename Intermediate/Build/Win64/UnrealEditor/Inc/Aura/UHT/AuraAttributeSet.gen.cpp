@@ -263,7 +263,6 @@ void EmptyLinkFunctionForGeneratedCodeAuraAttributeSet() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAuraAttributeSet_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "AbilitySystem/AuraAttributeSet.h" },
 		{ "ModuleRelativePath", "Public/AbilitySystem/AuraAttributeSet.h" },
 	};
@@ -350,15 +349,15 @@ void EmptyLinkFunctionForGeneratedCodeAuraAttributeSet() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UAuraAttributeSet);
 	UAuraAttributeSet::~UAuraAttributeSet() {}
-	struct Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_AbilitySystem_AuraAttributeSet_h_Statics
+	struct Z_CompiledInDeferFile_FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_AbilitySystem_AuraAttributeSet_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_AbilitySystem_AuraAttributeSet_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UAuraAttributeSet, UAuraAttributeSet::StaticClass, TEXT("UAuraAttributeSet"), &Z_Registration_Info_UClass_UAuraAttributeSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAuraAttributeSet), 3508015221U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_AbilitySystem_AuraAttributeSet_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UAuraAttributeSet, UAuraAttributeSet::StaticClass, TEXT("UAuraAttributeSet"), &Z_Registration_Info_UClass_UAuraAttributeSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAuraAttributeSet), 3298226887U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_AbilitySystem_AuraAttributeSet_h_2367320584(TEXT("/Script/Aura"),
-		Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_AbilitySystem_AuraAttributeSet_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Aura_5_2_Source_Aura_Public_AbilitySystem_AuraAttributeSet_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_AbilitySystem_AuraAttributeSet_h_3320472015(TEXT("/Script/Aura"),
+		Z_CompiledInDeferFile_FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_AbilitySystem_AuraAttributeSet_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_AbilitySystem_AuraAttributeSet_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

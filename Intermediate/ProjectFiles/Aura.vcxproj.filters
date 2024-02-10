@@ -12,6 +12,8 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -69,6 +71,12 @@
     <ClCompile Include="..\..\Source\Aura\Private\AbilitySystem\AuraAttributeSet.cpp">
       <Filter>Source\Aura\Private\AbilitySystem</Filter>
     </ClCompile>
+    <Filter Include="Source\Aura\Private\Actor">
+      <UniqueIdentifier>{051A7246-5551-3D03-BC41-3B84493932DF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\Actor\AuraEffectActor.cpp">
+      <Filter>Source\Aura\Private\Actor</Filter>
+    </ClCompile>
     <Filter Include="Source\Aura\Private\Characters">
       <UniqueIdentifier>{FB0A0241-9E3F-3F2C-A169-A0EECEBC48D1}</UniqueIdentifier>
     </Filter>
@@ -110,6 +118,12 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\Aura\Public\AbilitySystem\AuraAttributeSet.h">
       <Filter>Source\Aura\Public\AbilitySystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\Public\Actor">
+      <UniqueIdentifier>{FB1C9C32-0E54-3D43-B3D9-FD86BB6EBCF1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\Actor\AuraEffectActor.h">
+      <Filter>Source\Aura\Public\Actor</Filter>
     </ClInclude>
     <Filter Include="Source\Aura\Public\Characters">
       <UniqueIdentifier>{AD8729C7-3645-3AC0-A71E-B3F61769CE03}</UniqueIdentifier>

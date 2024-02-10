@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\admin\\UnrealProject\\Aura-5.2\\Source\\Aura\\Aura.Build.cs",
-		"C:\\Users\\admin\\UnrealProject\\Aura-5.2\\Source\\Aura.Target.cs",
-		"C:\\Users\\admin\\UnrealProject\\Aura-5.2\\Source\\AuraEditor.Target.cs"
+		"D:\\Unreal Projects\\Aura-5.2\\Source\\Aura\\Aura.Build.cs",
+		"D:\\Unreal Projects\\Aura-5.2\\Source\\Aura.Target.cs",
+		"D:\\Unreal Projects\\Aura-5.2\\Source\\AuraEditor.Target.cs"
 	],
 	"EngineVersion": "5.2.1"
 }

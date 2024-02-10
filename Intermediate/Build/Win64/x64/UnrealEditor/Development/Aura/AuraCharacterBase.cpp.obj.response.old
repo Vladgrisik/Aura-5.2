@@ -1,6 +1,6 @@
-C:\Users\admin\UnrealProject\Aura\Source\Aura\Private\AuraCharacterBase.cpp
+C:\Users\admin\UnrealProject\Aura-5.2\Source\Aura\Private\AuraCharacterBase.cpp
 /I .
-/I C:\Users\admin\UnrealProject\Aura\Source\Aura\Private
+/I C:\Users\admin\UnrealProject\Aura-5.2\Source\Aura\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayTags\UHT
 /I Runtime\GameplayTags\Classes
 /I Runtime\GameplayTags\Public
@@ -279,9 +279,9 @@ C:\Users\admin\UnrealProject\Aura\Source\Aura\Private\AuraCharacterBase.cpp
 /I ..\Plugins\Runtime\DataRegistry\Intermediate\Build\Win64\UnrealEditor\Inc\DataRegistry\UHT
 /I ..\Plugins\Runtime\DataRegistry\Source\DataRegistry\Public
 /I ..\Plugins\Runtime\DataRegistry\Source
-/I C:\Users\admin\UnrealProject\Aura\Intermediate\Build\Win64\UnrealEditor\Inc\Aura\UHT
-/I C:\Users\admin\UnrealProject\Aura\Source
-/I C:\Users\admin\UnrealProject\Aura\Source\Aura\Public
+/I C:\Users\admin\UnrealProject\Aura-5.2\Intermediate\Build\Win64\UnrealEditor\Inc\Aura\UHT
+/I C:\Users\admin\UnrealProject\Aura-5.2\Source
+/I C:\Users\admin\UnrealProject\Aura-5.2\Source\Aura\Public
 /I ..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT
 /I ..\Plugins\EnhancedInput\Source\EnhancedInput\Public
 /I ..\Plugins\EnhancedInput\Source
@@ -294,12 +294,12 @@ C:\Users\admin\UnrealProject\Aura\Source\Aura\Private\AuraCharacterBase.cpp
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"C:\Users\admin\UnrealProject\Aura\Intermediate\Build\Win64\x64\AuraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/FI"C:\Users\admin\UnrealProject\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\Definitions.Aura.h"
-/Yu"C:\Users\admin\UnrealProject\Aura\Intermediate\Build\Win64\x64\AuraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"C:\Users\admin\UnrealProject\Aura\Intermediate\Build\Win64\x64\AuraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"C:\Users\admin\UnrealProject\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\AuraCharacterBase.cpp.obj"
-/sourceDependencies C:\Users\admin\UnrealProject\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\AuraCharacterBase.cpp.dep.json
+/FI"C:\Users\admin\UnrealProject\Aura-5.2\Intermediate\Build\Win64\x64\AuraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"C:\Users\admin\UnrealProject\Aura-5.2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\Definitions.Aura.h"
+/Yu"C:\Users\admin\UnrealProject\Aura-5.2\Intermediate\Build\Win64\x64\AuraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"C:\Users\admin\UnrealProject\Aura-5.2\Intermediate\Build\Win64\x64\AuraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Fo"C:\Users\admin\UnrealProject\Aura-5.2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\AuraCharacterBase.cpp.obj"
+/sourceDependencies C:\Users\admin\UnrealProject\Aura-5.2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\AuraCharacterBase.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi
