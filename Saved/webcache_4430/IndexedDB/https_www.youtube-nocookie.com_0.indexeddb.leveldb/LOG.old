@@ -1,0 +1,6 @@
+2024/02/21-19:05:31.377 2ddc Creating DB D:/Unreal Projects/Aura-5.2/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
+2024/02/21-19:05:31.389 2ddc Reusing MANIFEST D:/Unreal Projects/Aura-5.2/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/21-19:05:40.056 4ecc Level-0 table #5: started
+2024/02/21-19:05:40.072 4ecc Level-0 table #5: 1167 bytes OK
+2024/02/21-19:05:40.075 4ecc Delete type=0 #3
+2024/02/21-19:05:40.075 4ecc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
