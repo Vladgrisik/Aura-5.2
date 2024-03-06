@@ -9,16 +9,29 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UPrimitiveComponent;
+struct FHitResult;
 #ifdef AURA_AuraEffectActor_generated_h
 #error "AuraEffectActor.generated.h already included, missing '#pragma once' in AuraEffectActor.h"
 #endif
 #define AURA_AuraEffectActor_generated_h
 
-#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_SPARSE_DATA
-#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_RPC_WRAPPERS
-#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_ACCESSORS
-#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_SPARSE_DATA
+#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execEndOverlap); \
+	DECLARE_FUNCTION(execOnOverlap);
+
+
+#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execEndOverlap); \
+	DECLARE_FUNCTION(execOnOverlap);
+
+
+#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_ACCESSORS
+#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAuraEffectActor(); \
 	friend struct Z_Construct_UClass_AAuraEffectActor_Statics; \
@@ -27,7 +40,7 @@ public: \
 	DECLARE_SERIALIZER(AAuraEffectActor)
 
 
-#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_INCLASS \
+#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAAuraEffectActor(); \
 	friend struct Z_Construct_UClass_AAuraEffectActor_Statics; \
@@ -36,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(AAuraEffectActor)
 
 
-#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_STANDARD_CONSTRUCTORS \
+#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAuraEffectActor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAuraEffectActor) \
@@ -50,7 +63,7 @@ public: \
 	NO_API virtual ~AAuraEffectActor();
 
 
-#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAuraEffectActor(AAuraEffectActor&&); \
@@ -62,27 +75,27 @@ public: \
 	NO_API virtual ~AAuraEffectActor();
 
 
-#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_9_PROLOG
-#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_GENERATED_BODY_LEGACY \
+#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_10_PROLOG
+#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_SPARSE_DATA \
-	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_RPC_WRAPPERS \
-	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_ACCESSORS \
-	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_INCLASS \
-	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_STANDARD_CONSTRUCTORS \
+	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_SPARSE_DATA \
+	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_RPC_WRAPPERS \
+	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_ACCESSORS \
+	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_INCLASS \
+	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_GENERATED_BODY \
+#define FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_SPARSE_DATA \
-	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_ACCESSORS \
-	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_12_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_SPARSE_DATA \
+	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_ACCESSORS \
+	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_Projects_Aura_5_2_Source_Aura_Public_Actor_AuraEffectActor_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

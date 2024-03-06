@@ -7,6 +7,10 @@
         "Includes": [
             "d:\\unreal projects\\aura-5.2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aura\\definitions.aura.h",
             "d:\\unreal projects\\aura-5.2\\source\\aura\\public\\actor\\auraeffectactor.h",
+            "d:\\файли програм\\unreal folder\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "d:\\файли програм\\unreal folder\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\файли програм\\unreal folder\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\файли програм\\unreal folder\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h",
             "d:\\unreal projects\\aura-5.2\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraeffectactor.generated.h"
         ],
         "ImportedModules": [],
