@@ -1,2 +1,3 @@
-2024/01/30-09:44:29.299 2214 Creating DB D:/Unreal Projects/Aura-5.2/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2024/01/30-09:44:29.351 2214 Reusing MANIFEST D:/Unreal Projects/Aura-5.2/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2024/02/21-19:04:22.731 1bf8 Reusing MANIFEST D:/Unreal Projects/Aura-5.2/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2024/02/21-19:04:22.737 1bf8 Recovering log #3
+2024/02/21-19:04:22.738 1bf8 Reusing old log D:/Unreal Projects/Aura-5.2/Saved/webcache_4430\Local Storage\leveldb/000003.log 
