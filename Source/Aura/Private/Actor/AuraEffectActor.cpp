@@ -3,6 +3,10 @@
 
 #include "Actor/AuraEffectActor.h"
 
+#include "AbilitySystemComponent.h"
+#include "AbilitySystemInterface.h"
+#include "AbilitySystem/AuraAttributeSet.h"
+
 AAuraEffectActor::AAuraEffectActor()
 {
 	PrimaryActorTick.bCanEverTick = false;
@@ -18,6 +22,15 @@ AAuraEffectActor::AAuraEffectActor()
 void AAuraEffectActor::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	//TODO: Change this to apply a Gameplay Effect. For now, using const_cast as a hack!
+	if (IAbilitySystemInterface* AbilitySystemInterface = Cast<IAbilitySystemInterface>(OtherActor))
+	{
+		const UAuraAttributeSet* AuraAttributeSet = Cast<UAuraAttributeSet>(AbilitySystemInterface->GetAbilitySystemComponent()->GetAttributeSet(UAuraAttributeSet::StaticClass()));
+		UAuraAttributeSet* MutableAuraAttributeSet = const_cast<UAuraAttributeSet*>(AuraAttributeSet);
+		MutableAuraAttributeSet->SetHealth(AuraAttributeSet->GetHealth() + 25.0f);
+		Destroy();
+	}
+	
 	
 }
 
@@ -32,7 +45,7 @@ void AAuraEffectActor::BeginPlay()
 
 	Sphere->OnComponentBeginOverlap.AddDynamic(this, &AAuraEffectActor::OnOverlap);
 
-	//Sphere->OnComponentBeginOverlap.AddDynamic(this, &AAuraEffectActor::EndOverlap);
+	Sphere->OnComponentEndOverlap.AddDynamic(this, &AAuraEffectActor::EndOverlap);
 }
 
 
