@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\aura-5.2\\source\\aura\\private\\ui\\widgetcontroller\\aurawidgetcontroller.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\aura-5.2\\intermediate\\build\\win64\\x64\\auraeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\aura-5.2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aura\\definitions.aura.h",
+            "d:\\unreal projects\\aura-5.2\\source\\aura\\public\\ui\\widgetcontroller\\aurawidgetcontroller.h",
+            "d:\\файли програм\\unreal folder\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "d:\\файли програм\\unreal folder\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "d:\\файли програм\\unreal folder\\ue_5.2\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "d:\\файли програм\\unreal folder\\ue_5.2\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "d:\\файли програм\\unreal folder\\ue_5.2\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "d:\\файли програм\\unreal folder\\ue_5.2\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "d:\\unreal projects\\aura-5.2\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\aurawidgetcontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
