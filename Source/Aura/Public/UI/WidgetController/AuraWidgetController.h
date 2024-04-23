@@ -3,14 +3,25 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "AbilitySystemComponent.h"
+#include "GameFramework/PlayerState.h"
 #include "UObject/NoExportTypes.h"
 #include "AuraWidgetController.generated.h"
 
 class UAttributeSet;
 class UAbilitySystemComponent;
-/**
- * 
- */
+
+USTRUCT(BlueprintType)
+struct FWidgetControllerParams
+{
+	GENERATED_BODY()
+
+	FWidgetControllerParams(){}
+	FWidgetControllerParams(APlayerController* PC, APlayerState* PS, UAbilitySystemComponent* ASC, UAuraAttributeSet* AS);
+	
+};
+
+
 UCLASS()
 class AURA_API UAuraWidgetController : public UObject
 {
